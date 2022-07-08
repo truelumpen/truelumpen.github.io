@@ -33,7 +33,7 @@ body {
 }
 
 .card[data-state="#about"] {
-    height: 540px;
+    height: 480px;
 }
 .card[data-state="#about"] .card-main {
     padding-top: 0;
@@ -44,7 +44,7 @@ body {
 }
 
 .card[data-state="#experience"] {
-    height: 570px;
+    height: 760px;
 }
 .card[data-state="#projects"] {
     height: 500px;
@@ -173,37 +173,6 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
-/*.card-social {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    padding: 0 20px;*/
-/*    margin-bottom: 30px;*/
-/*}*/
-/*.card-social svg {*/
-/*    fill: #a5b5ce;*/
-/*    width: 16px;*/
-/*    display: block;*/
-/*    transition: 0.3s;*/
-/*}*/
-/*.card-social a {*/
-/*    color: #8797a1;*/
-/*    height: 32px;*/
-/*    width: 32px;*/
-/*    border-radius: 50%;*/
-/*    display: inline-flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    transition: 0.3s;*/
-/*    background-color: rgba(93, 133, 193, 0.05);*/
-/*    margin-right: 10px;*/
-/*}*/
-/*.card-social a:hover svg {*/
-/*    fill: #637faa;*/
-/*}*/
-/*.card-social a:last-child {*/
-/*    margin-right: 0;*/
-/*}*/
-
 .card-buttons {
     display: flex;
     background-color: #fff;
@@ -266,6 +235,7 @@ body {
 }
 .card-timeline {
     margin-top: 30px;
+    margin-left: -40px;
     position: relative;
 }
 .card-timeline:after {
