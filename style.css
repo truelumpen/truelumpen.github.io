@@ -44,7 +44,7 @@ body {
 }
 
 .card[data-state="#experience"] {
-    height: 760px;
+    height: 610px;
 }
 .card[data-state="#projects"] {
     height: 500px;
